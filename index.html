@@ -9,6 +9,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ovo&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'sans': ['Ovo', 'ui-sans-serif', 'system-ui'],
+                    }
+                }
+            }
+        }
+    </script>
 </head>
 <body class="bg-gray-50 font-sans leading-normal tracking-normal">
     <nav class="bg-white shadow-lg">
@@ -23,6 +35,7 @@
                     <div class="hidden md:flex items-center space-x-4">
                         <a href="#services" class="py-4 px-2 text-gray-500 hover:text-blue-500 transition duration-300">Services</a>
                         <a href="#approach" class="py-4 px-2 text-gray-500 hover:text-blue-500 transition duration-300">Our Approach</a>
+                        <a href="#contact" class="py-4 px-2 text-gray-500 hover:text-blue-500 transition duration-300">Team</a>
                         <a href="#contact" class="py-4 px-2 text-gray-500 hover:text-blue-500 transition duration-300">Contact</a>
                     </div>
                 </div>
@@ -80,6 +93,32 @@
                     <div>
                         <span class="text-4xl font-bold text-blue-600">4.</span>
                         <p class="text-gray-700">Continuous support</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="team" class="py-16 bg-white">
+            <div class="container mx-auto px-4">
+                <h2 class="text-4xl font-bold text-center mb-12 text-gray-800">Meet Our Expert Team</h2>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="text-center">
+                        <img src="/api/placeholder/300/300" alt="Dr. Elena Rodriguez" class="w-48 h-48 mx-auto rounded-full object-cover mb-4">
+                        <h3 class="text-xl font-semibold text-gray-800">Dr. Elena Rodriguez</h3>
+                        <p class="text-gray-600">Chief Data Scientist</p>
+                        <p class="text-sm text-gray-500 mt-2">PhD in Machine Learning, 15+ years of AI research experience</p>
+                    </div>
+                    <div class="text-center">
+                        <img src="/api/placeholder/300/300" alt="Michael Chang" class="w-48 h-48 mx-auto rounded-full object-cover mb-4">
+                        <h3 class="text-xl font-semibold text-gray-800">Michael Chang</h3>
+                        <p class="text-gray-600">Lead ML Engineer</p>
+                        <p class="text-sm text-gray-500 mt-2">Former Google AI, specializing in neural network architectures</p>
+                    </div>
+                    <div class="text-center">
+                        <img src="/api/placeholder/300/300" alt="Sarah Knowles" class="w-48 h-48 mx-auto rounded-full object-cover mb-4">
+                        <h3 class="text-xl font-semibold text-gray-800">Sarah Knowles</h3>
+                        <p class="text-gray-600">Director of AI Strategy</p>
+                        <p class="text-sm text-gray-500 mt-2">MBA, expert in AI business transformation</p>
                     </div>
                 </div>
             </div>
