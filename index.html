@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IntelliCore ML Solutions</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+</head>
+<body class="bg-gray-50 font-sans leading-normal tracking-normal">
+    <nav class="bg-white shadow-lg">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between">
+                <div class="flex space-x-7">
+                    <div>
+                        <a href="#" class="flex items-center py-4 px-2">
+                            <span class="font-semibold text-gray-800 text-xl">IntelliCore</span>
+                        </a>
+                    </div>
+                    <div class="hidden md:flex items-center space-x-4">
+                        <a href="#services" class="py-4 px-2 text-gray-500 hover:text-blue-500 transition duration-300">Services</a>
+                        <a href="#approach" class="py-4 px-2 text-gray-500 hover:text-blue-500 transition duration-300">Our Approach</a>
+                        <a href="#contact" class="py-4 px-2 text-gray-500 hover:text-blue-500 transition duration-300">Contact</a>
+                    </div>
+                </div>
+                <div class="hidden md:flex items-center space-x-3">
+                    <a href="#contact" class="py-2 px-4 bg-blue-500 text-white rounded hover:bg-blue-600 transition duration-300">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mx-auto px-4 pt-16">
+        <header class="text-center">
+            <h1 class="text-5xl font-bold text-gray-800 mb-4">Machine Learning Solutions <br>That Transform Business</h1>
+            <p class="text-xl text-gray-600 mb-8">Custom AI and machine learning services tailored to your unique challenges</p>
+            <a href="#contact" class="bg-blue-600 text-white px-8 py-3 rounded-full text-lg hover:bg-blue-700 transition duration-300 inline-block">Explore Our Services</a>
+        </header>
+
+        <section id="services" class="py-16">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <i data-feather="trending-up" class="mx-auto mb-4 text-blue-500" width="48" height="48"></i>
+                    <h3 class="text-xl font-semibold mb-3">Predictive Analytics</h3>
+                    <p class="text-gray-600">Leverage advanced ML models to forecast trends and make data-driven decisions.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <i data-feather="cpu" class="mx-auto mb-4 text-blue-500" width="48" height="48"></i>
+                    <h3 class="text-xl font-semibold mb-3">Custom AI Solutions</h3>
+                    <p class="text-gray-600">Develop bespoke machine learning applications tailored to your business needs.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <i data-feather="shield" class="mx-auto mb-4 text-blue-500" width="48" height="48"></i>
+                    <h3 class="text-xl font-semibold mb-3">Advanced Security</h3>
+                    <p class="text-gray-600">Implement intelligent security solutions using cutting-edge machine learning.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="approach" class="bg-blue-50 py-16 rounded-lg">
+            <div class="container mx-auto text-center">
+                <h2 class="text-4xl font-bold mb-6 text-gray-800">Our Data-Driven Approach</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto mb-8">We combine deep technical expertise with a strategic understanding of your business goals to create machine learning solutions that drive real, measurable impact.</p>
+                <div class="grid md:grid-cols-4 gap-6 text-center">
+                    <div>
+                        <span class="text-4xl font-bold text-blue-600">1.</span>
+                        <p class="text-gray-700">Discovery & Analysis</p>
+                    </div>
+                    <div>
+                        <span class="text-4xl font-bold text-blue-600">2.</span>
+                        <p class="text-gray-700">Custom Model Design</p>
+                    </div>
+                    <div>
+                        <span class="text-4xl font-bold text-blue-600">3.</span>
+                        <p class="text-gray-700">Implementation</p>
+                    </div>
+                    <div>
+                        <span class="text-4xl font-bold text-blue-600">4.</span>
+                        <p class="text-gray-700">Continuous Optimization</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="py-16">
+            <div class="max-w-xl mx-auto bg-white p-8 rounded-lg shadow-md">
+                <h2 class="text-3xl font-bold text-center mb-6 text-gray-800">Let's Talk Machine Learning</h2>
+                <form>
+                    <div class="mb-4">
+                        <input type="text" placeholder="Your Name" class="w-full px-3 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    </div>
+                    <div class="mb-4">
+                        <input type="email" placeholder="Your Email" class="w-full px-3 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    </div>
+                    <div class="mb-4">
+                        <textarea placeholder="Tell us about your ML needs" class="w-full px-3 py-2 border rounded-md h-32 focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+                    </div>
+                    <button type="submit" class="w-full bg-blue-600 text-white py-3 rounded-md hover:bg-blue-700 transition duration-300">Send Inquiry</button>
+                </form>
+            </div>
+        </section>
+
+        <footer class="bg-gray-800 text-white py-8 text-center">
+            <p>&copy; 2024 IntelliCore ML Solutions. All Rights Reserved.</p>
+        </footer>
+    </div>
+
+    <script>
+        feather.replace();
+    </script>
+</body>
+</html>
